@@ -45,7 +45,7 @@ NETWORK=$(set_default "$NETWORK" "simnet")
 
 exec btcctl \
     "--$NETWORK" \
-    --rpccert="/rpc/rpc.cert" \
+    --rpccert="/shared/rpc/rpc.cert" \
     --rpcuser="$RPCUSER" \
     --rpcpass="$RPCPASS" \
     --rpcserver="rpcserver" \

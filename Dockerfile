@@ -59,4 +59,4 @@ VOLUME ["/rpc"]
 
 #COPY "docker/btcd.conf" /root/.btcd/
 
-ENTRYPOINT ["/start-btcd.sh"]
+ENTRYPOINT ["/start-btcctl.sh"]
